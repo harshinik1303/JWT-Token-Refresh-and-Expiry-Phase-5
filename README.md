@@ -2,13 +2,13 @@
 JWT Token Refresh and Expiry
 
 
-##1.Aim:
+1.Aim:
 
 
     The aim of the JWT Token Refresh and Expiry project is to implement secure user authentication by using JSON Web Tokens (JWT) that automatically expire after a set time and can be renewed using refresh tokens — ensuring both security and smooth user experience.
 
    
-##2.Features:
+2.Features:
 
 
      User Login and Signup – Users can register and log in securely.
@@ -20,7 +20,7 @@ JWT Token Refresh and Expiry
      Error Handling – Shows proper messages for invalid or expired tokens.
    
 
-##3.Technologies:
+3.Technologies:
 
 
    ###Frontend (Optional – if included)
