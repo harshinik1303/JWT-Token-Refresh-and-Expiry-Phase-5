@@ -11,19 +11,13 @@
 ##2.Features:
 
 
-   User Login and Signup – Users can register and log in securely.
-   
-   Access Token Creation – A token is generated after login.
-   
-   Token Expiry – Access token expires after a short time for safety.
-   
-   Refresh Token – Used to get a new access token without logging in again.
-   
-   Logout Option – Users can log out and remove tokens.
-   
-   Secure Authentication – Passwords are encrypted, and tokens are verified.
-   
-   Error Handling – Shows proper messages for invalid or expired tokens.
+     User Login and Signup – Users can register and log in securely.
+     Access Token Creation – A token is generated after login.
+     Token Expiry – Access token expires after a short time for safety.
+     Refresh Token – Used to get a new access token without logging in again.
+     Logout Option – Users can log out and remove tokens.
+     Secure Authentication – Passwords are encrypted, and tokens are verified.
+     Error Handling – Shows proper messages for invalid or expired tokens.
    
 
 ##3.Technologies:
