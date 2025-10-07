@@ -23,19 +23,19 @@ JWT Token Refresh and Expiry
 3.Technologies:
 
 
-   ###Frontend (Optional – if included)
+   Frontend (Optional – if included)
    
      HTML / CSS / JavaScript – For creating a simple UI (login & signup forms).
      
      React.js (optional) – For building a dynamic, responsive frontend interface.
      
-  ###Backend
+  Backend
   
      Node.js – JavaScript runtime for building the backend server.
      
      Express.js – Framework for handling routes, middleware, and API requests easily.
      
-  ###Authentication & Security
+  Authentication & Security
   
      JWT (JSON Web Token) – For secure authentication, access token creation, and refresh token handling.
      
@@ -45,7 +45,7 @@ JWT Token Refresh and Expiry
      
      cookie-parser / cors – For managing cookies and cross-origin requests securely.
      
-  ###Database
+  Database
   
      MongoDB – To store user details and refresh tokens.
      
