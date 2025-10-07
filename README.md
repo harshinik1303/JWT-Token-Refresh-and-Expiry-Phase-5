@@ -51,44 +51,4 @@ JWT Token Refresh and Expiry
      
      Mongoose – ODM library to connect and interact with MongoDB easily.
 
-Aim:
-
-To build a secure authentication system where users log in using JSON Web Tokens (JWT).
-The project automatically expires tokens after a set time and provides a refresh mechanism to generate new tokens without requiring the user to log in again.
-
-Features:
-
-User Authentication – Login with username and password using JWT.
-
-Access Token – Short-lived token used for secure API access.
-
-Refresh Token – Long-lived token to generate a new access token when it expires.
-
-Token Expiry Handling – Automatically expires access tokens after a fixed time (e.g., 15 minutes).
-
-Token Refresh API – Generates a new token pair without requiring login.
-
-Logout Feature – Invalidates refresh token to end session securely.
-
-Security Enhancements – Tokens stored safely, password hashed using bcrypt.
-
-Error Handling – Handles expired or invalid tokens gracefully.
-
-Technologies Used:
-Backend:
-
-Node.js – Server-side runtime
-
-Express.js – Web framework for APIs
-
-MongoDB – Database for storing user data and refresh tokens
-
-JWT (jsonwebtoken) – For generating and verifying tokens
-
-bcrypt.js – For hashing passwords
-
-Frontend (optional for testing):
-
-Postman / Thunder Client – For testing API endpoints
-     
 
