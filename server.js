@@ -15,8 +15,8 @@ app.use(cors());          // Allow frontend requests (CORS)
 
 // 5️⃣ Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('✅ MongoDB Connected Successfully'))
-  .catch(err => console.log('❌ MongoDB Error:', err));
+  .then(() => console.log(' MongoDB Connected Successfully'))
+  .catch(err => console.log(' MongoDB Error:', err));
 
 // 6️⃣ Import Routes
 const authRoutes = require('./routes/authRoutes');  // Your auth routes
